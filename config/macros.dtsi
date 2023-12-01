@@ -1,9 +1,3 @@
-macro_ctrl+c: macro_ctrl+c{
-compatible = "zmk,behavior-macro";
-label = "macro_ctrl+c";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
-};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
